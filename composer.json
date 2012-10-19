@@ -1,0 +1,25 @@
+{
+    "name": "ralfeggert/travello-b8",
+    "description": "ZF2 module to use the b8 spam filter",
+    "type": "zf-module",
+    "homepage": "https://github.com/RalfEggert/travello-b8",
+    "authors": [
+        {
+            "name": "Ralf Eggert",
+            "email": "ralf@travello.com",
+            "homepage": "http://de.travello.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "TravelloB8": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
